@@ -1,0 +1,299 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.section {
+    border: 4px solid gray;
+    padding: 20px;
+    margin: 10px;
+    background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg'); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: transparent;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown select {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.sign-in {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.email-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.get-started {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#section2 .content,
+#section3 .content {
+    border: 4px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+#section2 .content {
+    text-align: center;
+}
+
+#section2 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section2 p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#section2 img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+
+#section3 .content {
+    text-align: center;
+}
+
+#section3 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section3 p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#section3 img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+#section3 .download-box {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#section3 .left img {
+    max-width: 80px;
+    margin-right: 1rem;
+}
+
+#section3 .right {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#section3 h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#section3 .download-link {
+    display: inline-block;
+    background-color: #e50914;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#section4 .content {
+    text-align: center;
+}
+
+#section4 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section4 p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#section4 .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#section4 .item {
+    flex-grow: 1;
+}
+
+#section4 img, #section4 video {
+    max-width: 100%;
+}
+
+/* Add this code to your existing CSS to style the fifth part */
+#section5 .content {
+    text-align: center;
+}
+
+#section5 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section5 p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#section5 img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+#section6 .content {
+    text-align: center;
+}
+
+#section6 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#section6 .faq-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#section6 .faq-list li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#section6 .faq-list .plus {
+    float: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+#section6 p {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+#section6 .email-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#section6 input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#section6 .get-started {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#section7 .content {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+#section7 .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#section7 .footer-column {
+    flex-basis: calc(25% - 1rem);
+    margin-bottom: 1rem;
+}
+
+#section7 .footer-column a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#section7 .footer-language {
+    flex-basis: 100%;
+    margin-top: 1rem;
+}
